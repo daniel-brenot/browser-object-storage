@@ -1,0 +1,37 @@
+{
+  "name": "browser-object-storage",
+  "version": "0.0.1",
+  "description": "An implementation of browserstorage that compresses data before storing it and ",
+  "main": "dist/browser-object-storage.js",
+  "types": "dist/browser-object-storage.d.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/msgpack-lite": "^0.1.7",
+    "typescript": "^2.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-brenot/browser-object-storage.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "storage",
+    "object"
+  ],
+  "author": "Daniel Brenot",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/daniel-brenot/browser-object-storage/issues"
+  },
+  "homepage": "https://github.com/daniel-brenot/browser-object-storage#readme",
+  "dependencies": {
+    "msgpack-lite": "^0.1.26"
+  }
+}
